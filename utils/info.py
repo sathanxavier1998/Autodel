@@ -18,13 +18,13 @@
 
 import os
 
-API_ID       = int(os.environ.get("API_ID", ""))
-API_HASH     = os.environ.get("API_HASH", "")
-BOT_TOKEN    = os.environ.get("BOT_TOKEN", "")
-SESSION      = os.environ.get("SESSION", "")
-TIME         = int(os.environ.get("TIME", 10))
-CHATS        = [int(cht) for cht in os.environ.get("CHATS", "").split()]
+API_ID       = "6620972"
+API_HASH     = "3f6835286b03e000ab6d71b37cc35b92"
+BOT_TOKEN    = "5020137731:AAFMBHWEvsZnfoOA5vY33rJiSJPPOA-Ccn8"
+SESSION      = "BQAoAmebtq50OIGqXeOepjpxaWjoBM-mNDedNweaNzz2ixZlzzEZIx0b2WWKGPMjIKa6rTEQroXCnIG6N6bq8ygPQLK7yKDZ5-0GsMasFwf7viyq8jJLevS6FwndxRdrwHuoThyVKwehoF-8tBamSnXkMwKihnoDDiU16vAy2O1xsiZxQC_xFwW4xMmJ042tTw5u40kMrvm3JTGrklbjAiPy1DeuifqdmJ9RuKWYYTB3VPtZR5X9kRmJqjyDXBaUEVRvb2DPlMA4YtwD9SYaCdVfEmNuZRYVAFHyibWbDZN6LoxPD62eInMHObnYvq951JzOYizGHbptqbILAQEIgbNzaANPBgA"
+TIME         = "190"
+CHATS        = "-1001570401050"
 WHITE_LIST   = [int(wht) for wht in os.environ.get("WHITE_LIST", "").split()]
 BLACK_LIST   = [int(blk) for blk in os.environ.get("BLACK_LIST", "").split()]
-DATABASE_URI = os.environ.get("DATABASE_URI", "")
-PORT         = os.environ.get("PORT", "8080")
+DATABASE_URI = "mongodb+srv://Bikash:Bikash@bikash.yl2nhcy.mongodb.net/?retryWrites=true&w=majority"
+PORT         = "8080"
