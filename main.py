@@ -22,7 +22,8 @@ from utils.database import *
 from subprocess import Popen
 from pyrogram import Client, filters
 
-User = Client("auto-delete-user", session_string=SESSION)
+User = Client("auto-delete-user",
+               session_string=SESSION)
 
 @User.on_message(filters.chat(CHATS))
 async def delete(user, message):
